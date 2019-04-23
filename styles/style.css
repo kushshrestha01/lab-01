@@ -7,6 +7,7 @@ header {
   width: 480px;
   height: 75px;
   outline: solid;
+  outline-width: thin;
   margin-top: 10px;
 }
 
@@ -14,4 +15,30 @@ main, div {
   width: 480px;
   height: 150px;
   outline: solid;
+  outline-width: thin;
 }
+
+main, div, div {
+  width: 480px;
+  height: 125px;
+  outline: solid;
+  outline-width: thin;
+}
+
+#box {
+  width: 240px;
+  height: 250px;
+  outline: solid;
+  outline-width: thin;
+  float: left;
+}
+
+footer{
+  width: 480px;
+  height: 80px;
+  outline: solid;
+  outline-width: thin;
+  position: absolute;
+  bottom: 0;
+}
+
