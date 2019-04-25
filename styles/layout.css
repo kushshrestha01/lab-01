@@ -4,6 +4,7 @@ header {
   outline: solid;
   outline-width: thin;
   margin-top: 10px;
+  text-align: center;
 }
 
 main, div {
@@ -11,6 +12,7 @@ main, div {
   height: 150px;
   outline: solid;
   outline-width: thin;
+  text-align: center;
 }
 
 main, div, div {
@@ -18,6 +20,7 @@ main, div, div {
   height: 125px;
   outline: solid;
   outline-width: thin;
+  text-align: center;
 }
 
 #box {
@@ -26,4 +29,5 @@ main, div, div {
   outline: solid;
   outline-width: thin;
   float: left;
+  text-align: center;
 }
