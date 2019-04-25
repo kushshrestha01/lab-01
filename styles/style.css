@@ -1,17 +1,10 @@
-body {
-  margin: auto;
-  width: 40%;
+footer{
+  clear: both;
+  width: 480px;
+  height: 80px;
+  outline: solid;
+  outline-width: thin;
+  border:0.25px solid black;
+  text-align: center;
 }
 
-header {
-  width: 480px;
-  height: 75px;
-  outline: solid;
-  margin-top: 10px;
-}
-
-main, div {
-  width: 480px;
-  height: 150px;
-  outline: solid;
-}
