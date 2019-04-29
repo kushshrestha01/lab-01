@@ -25,3 +25,17 @@
 #box4{
   background-color:rgb(136, 135, 216);
 }
+
+@media (min-width: 481px) and (max-width: 763px){
+  #b{
+    background-color:rgb(230, 20, 20);
+  }
+  
+  #c{
+    background-color:rgb(20, 231, 101);
+  }
+  
+  #d{
+    background-color:rgb(12, 209, 166);
+  }
+}
