@@ -1,7 +1,7 @@
 /* Desktop Version */
 @media only screen and (min-width: 768px){
   header {
-    width: 960px;
+    width: 100%;
     height: 100px;
     margin: 0 auto;
     outline: solid;
@@ -12,116 +12,60 @@
   }
 
   main div {
-    width: 200px;
+    width: 20%;
     height: 600px;
     outline: solid;
     outline-width: thin;
     text-align: center;
-    float: left;    
+    float: left;  
+    display: flex;
+    flex-wrap: nowrap;
+  
   }
 
   main div:nth-child(2) {
-    width: 380px;
+    width: 40%;
     height: 200px;
     outline: solid;
     outline-width: thin;
     text-align: center;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap;
 
   }
 
   main div:nth-child(3) {
-    width: 380px;
+    width: 40%;
     height: 200px;
     outline: solid;
     outline-width: thin;
     text-align: center;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap;
   }
 
   body main .box div {
-    width: 190px;
+    width: 20%;
     height: 250px;
     outline: solid;
     outline-width: thin;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap;
     text-align: center;
   }
 
   footer{
-    width: 759px;
+    width: 79.85%;
     height: 149px;
     outline: solid;
     outline-width: thin;
     border:0.25px solid black;
     text-align: center;
     background-color: rgb(102, 44, 55);
-    float: right;
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
-
-/* Tablet */
-
-/* @media (min-width: 760px){
-  header {
-    width: 960px;
-    height: 100px;
-    margin: 0 auto;
-    outline: solid;
-    outline-width: thin;
-    margin-top: 10px;
-    text-align: center;
-    background-color:grey;
-  }
-
-  main div {
-    width: 200px;
-    height: 600px;
-    outline: solid;
-    outline-width: thin;
-    text-align: center;
-    float: left;    
-  }
-
-  main div:nth-child(2) {
-    width: 380px;
-    height: 200px;
-    outline: solid;
-    outline-width: thin;
-    text-align: center;
-    float: left;
-
-  }
-
-  main div:nth-child(3) {
-    width: 380px;
-    height: 200px;
-    outline: solid;
-    outline-width: thin;
-    text-align: center;
-    float: left;
-  }
-
-  body main .box div {
-    width: 190px;
-    height: 250px;
-    outline: solid;
-    outline-width: thin;
-    float: left;
-    text-align: center;
-  }
-
-  footer{
-    width: 759px;
-    height: 149px;
-    outline: solid;
-    outline-width: thin;
-    border:0.25px solid black;
-    text-align: center;
-    background-color: rgb(102, 44, 55);
-    float: right;
-  }
-} */
 
 /* Mobile Version */
 @media screen and (max-width: 768px) {
